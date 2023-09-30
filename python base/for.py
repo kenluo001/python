@@ -2,7 +2,7 @@
 Author: “kenluo001” “ken.luo.5227@gmail.com”
 Date: 2023-09-16 17:01:48
 LastEditors: “kenluo001” “ken.luo.5227@gmail.com”
-LastEditTime: 2023-09-28 20:10:47
+LastEditTime: 2023-09-28 20:18:23
 FilePath: /python/python base/for.py
 Description: 
 
@@ -24,3 +24,8 @@ for i in range(1, 10):
     for j in range(1, i + 1):
         print(f'{j}*{i}={i * j}', end='\t')
     print()
+
+a, b = 0, 1
+for _ in range(20):
+    a, b = b, a + b
+    print(a)
