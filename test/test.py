@@ -1,2 +1,3 @@
 
-print("123")
+print("123\n")
+print("abc\n")
