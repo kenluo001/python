@@ -1,10 +1,6 @@
 import Poker
 import Player
 
-# poker = PokerAll.Poker()
-# poker.shuffle()
-
-# players = [PokerAll.Player('东邪'), PokerAll.Player('西毒'), PokerAll.Player('南帝'), PokerAll.Player('北丐')]
 
 poker = Poker.poker()
 poker.shuffle()
